@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+:root{
+    --success-color: green;
+    --failure-color:red;
+}
+*{
+
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+   flex-wrap: wrap;
+   background-color: lightpink;
+   width: 50vw;
+   height: 80vh;
+   margin: 0 auto;
+   
+}
+/* .container div{
+
+} */
