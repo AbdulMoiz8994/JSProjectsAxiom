@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #274472;
+    color: wheat;
+    font-family: 'Lato', sans-serif;
+}
+.bayan_container{
+ margin: 20px 0;   
+}
+.bayan_container label{
+font-weight: 400;
+color: white;
+}
+.bayan_container select{
+    height: 30px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+    appearance: none;
+    background-color: white;
+    margin-left: 8px;
+}
+.bayan_container > select:focus{
+    outline: none;
+}
