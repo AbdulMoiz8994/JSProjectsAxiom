@@ -37,3 +37,65 @@ color: white;
 .bayan_container > select:focus{
     outline: none;
 }
+.choose_seats{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.seats{
+  width: 15px; 
+  height: 15px;
+  background-color: #5885AF;
+  display: inline-block;
+  border-top-left-radius: 10px;   
+  border-top-right-radius: 10px;
+  margin-left: 7px;
+}
+
+.choose_seats li{
+    list-style-type: none;
+}
+.data small{
+   font-weight: bold;
+   font-size: 16px;
+}
+.seats.selected{
+   background-color: #C3E0E5;
+}
+.seats.Occupied{
+    background-color: white;
+}
+.content_container{
+    perspective: 1000px;
+}
+.screen{
+    width: 300px;   
+    height: 80px;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 1px 1px 8px white;
+    transform: rotateX(-35deg);
+    margin: 15px 0;
+}
+.row .seats{
+    margin-bottom: 7px;
+}
+
+.seats:nth-of-type(2){
+    margin-right: 20px;
+}
+.seats:nth-last-of-type(2){
+    margin-left: 20px;
+}
+.seats:not(.Occupied):hover{
+    cursor: pointer;
+    transform: scale(1.25);
+}
+
+.choose_seats .seats:not(.Occupied):hover{
+    cursor: default;
+    transform: scale(1);
+}
