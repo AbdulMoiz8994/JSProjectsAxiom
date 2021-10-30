@@ -80,6 +80,7 @@ color: white;
     transform: rotateX(-35deg);
     margin: 15px 0;
 }
+
 .row .seats{
     margin-bottom: 7px;
 }
@@ -94,8 +95,11 @@ color: white;
     cursor: pointer;
     transform: scale(1.25);
 }
-
+/* This css is for not to apply  above properties on type of seats */
 .choose_seats .seats:not(.Occupied):hover{
     cursor: default;
     transform: scale(1);
+}
+.para{
+    margin-top: 30px;
 }
