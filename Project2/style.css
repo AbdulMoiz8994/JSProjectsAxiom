@@ -103,3 +103,11 @@ color: white;
 .para{
     margin-top: 30px;
 }
+
+
+
+@media (max-width:400px) {
+    .choose_seats{
+        width: 320px;
+    }   
+}
