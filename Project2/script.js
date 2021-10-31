@@ -30,6 +30,7 @@ function updateSelectedCount(){
               count.innerText=selectedItems
             //   update the UI to show the total Price of tickets
             total.innerText=selectedItems * ticketPrice
+            
             // saving in localStorage in key and value pair
             localStorage.setItem('selectedSeats',JSON.stringify(selectIndex))
 
@@ -48,9 +49,14 @@ container.addEventListener('click', (e)=>{
                 //   refreshing the count
               updateSelectedCount()
         }
+
       }
+
 })
 //  save the  bayan person index number  and bayan price data in localStorage 
+
+
+
 
 
 // seocnd event Listener for bayan's perosn select
@@ -60,4 +66,6 @@ bayanPerson.addEventListener('change',(e) =>{
   updateSelectedCount()
 
 })
+
+
   updateSelectedCount()
