@@ -143,7 +143,20 @@ input{
     margin-top: 8px;
     display: inline-block !important;
 }
+.icon-success,.icon-failure{
+    color: green;
+    font-size: larger;
+    position: absolute;
+    opacity: 0;
+}
+.icon-failure{
+    color: red;
+}
+.error{
+    display: block;
+    margin-top: 5px;
 
+}
 .btn-last{
     margin-top: 20px;
     height: 40px;
