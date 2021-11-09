@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 70%;
-  min-height: 50vh;
+  min-height: 80vh;
   border: 2px solid #f2796e;
   border-radius: 10px;
   /* text-align: center; */
@@ -116,13 +116,20 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 label{
     display: block;
     margin-top: 10px;
     font-weight: 600;
     text-transform: capitalize;
+}
+.userlogo,.far,.fas{
+    position: absolute;
+    padding: 13px;
+}
+.far,.fas{
+    padding: 15px 12px;
 }
 
 input{
@@ -131,9 +138,10 @@ input{
     border-radius: 3px;
     border: none;
     border: 1px solid lightgray;
-    padding-left: 10px;
+    padding-left: 30px;
     font-size: larger;
     margin-top: 8px;
+    display: inline-block !important;
 }
 
 .btn-last{
@@ -145,4 +153,15 @@ input{
     background-color:  #f2796e;
     color: white;
     font-size: larger;
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .nestedcontainer1{
+        display: none;
+    }
+    .nestedcontainer2{
+        width: 100%;
+        min-height: 80vh;
+    }
 }
