@@ -169,6 +169,12 @@ input{
     cursor: pointer;
 }
 
+@media (max-width:1250px) {
+  .form{
+    margin-top: 1rem;
+  } 
+}
+
 @media (max-width:768px) {
     .nestedcontainer1{
         display: none;
@@ -177,4 +183,24 @@ input{
         width: 100%;
         min-height: 80vh;
     }
+    .form{
+      margin-top: 2rem;
+    } 
+}
+@media (max-width:571px) {
+  .main_container{
+    width: 90%;
+  }
+}
+@media (max-width:444px) {
+  .btn-1,
+  .btn-2{
+    width: 46%;
+    gap: 8px;
+    padding-left: 10px;
+  }
+  .linksButton {
+   gap: 5px; 
+   justify-content: center;
+  }
 }
