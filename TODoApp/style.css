@@ -1,0 +1,46 @@
+.card_Div{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.heading,.button,.Footer{
+  background-color: #17a2b8 !important;
+  color: white !important;
+  border-color: #17a2b8 !important;
+}
+.Footer a{
+   color: white;
+   text-decoration: none;
+}
+.addTask{
+    border-top: 1px solid lightgray;
+}
+.LIItem{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.edit_button,.delete_button{
+    position: absolute;
+    right: 10px;
+}
+.delete_button{
+    right: 60px;
+}
+
+@media (max-width:768px) {
+    .card_Div{
+        width: 80%;
+    }
+}
+@media (max-width:460px) {
+    .card_Div{
+        width: 100%;
+    }
+}
