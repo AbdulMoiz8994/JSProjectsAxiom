@@ -10,7 +10,7 @@ function AddInput(){
     let Input=document.getElementsByClassName('form-control');
         console.log(Input[0].value);
     //  make the ul and li 
-    if(Input[0].value != 0){
+    if(Input[0].value.trim() != 0){
         let createli=document.createElement('li');
         createli.className="LIItem"
         let addData=document.createTextNode(Input[0].value)
