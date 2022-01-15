@@ -1,0 +1,9 @@
+.nested_container{
+    width: 40% !important;
+   border-radius: 10px;   
+   margin: 0 auto;
+}
+.Image{
+    width: 200px !important;
+    height: 200px !important;
+}
